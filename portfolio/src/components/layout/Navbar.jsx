@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 export default function Navbar() {
   // 1. Vos rubriques gérées de façon dynamique
   const navLinks = [
+    { label: 'Home', href: '#home' },
     { label: 'About', href: '#about' },
     { label: 'Skills', href: '#skills' },
     { label: 'Projects', href: '#projects' },
@@ -21,7 +22,7 @@ export default function Navbar() {
         <div className="flex items-center gap-2 cursor-pointer">
           <div className="w-6 h-6 rounded-full bg-gradient-to-tr from-indigo-500 to-purple-500" /> 
           <span className="text-white font-bold text-lg tracking-tight">
-            Portfolio
+            Aldo RANDRIAMANALINA
           </span>
         </div>
 

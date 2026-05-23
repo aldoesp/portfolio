@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+/* Reset global pour forcer Tailwind v4 à appliquer les bonnes polices */
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #050816;
+    color: #ffffff;
+    /* Applique une police sans-serif propre par défaut sur tout le site */
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+
+  /* Sécurité pour empêcher les titres d'adopter une police serif obsolète */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+  }
+}
