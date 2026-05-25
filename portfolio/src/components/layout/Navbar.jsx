@@ -20,7 +20,7 @@ export default function Navbar() {
         
         {/* [Logo] - À remplacer par votre texte ou une image <img> */}
         <div className="flex items-center gap-2 cursor-pointer">
-          <div className="w-6 h-6 rounded-full bg-gradient-to-tr from-indigo-500 to-purple-500" /> 
+          <div className="w-6 h-6 rounded-full bg-linear-to-tr from-indigo-500 to-purple-500" /> 
           <span className="text-white font-bold text-lg tracking-tight">
             Aldo RANDRIAMANALINA
           </span>

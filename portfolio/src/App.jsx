@@ -6,7 +6,7 @@ import Hero from './components/sections/Hero'
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#050816] text-white relative overflow-x-hidden">
+    <div className="min-h-screen bg-[#160f05] text-white relative overflow-x-hidden">
       
       {/* 1. Traînée de particule lumineuse de fond */}
       <SplashCursor
