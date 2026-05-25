@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import SplashCursor from './components/effects/SplashCursor'
 import Navbar from './components/layout/navbare'
-import Hero from './components/sections/Hero'
+import Hero from './sections/Hero'
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
 
       {/* 2. En-tête Terminal persistant */}
       <Navbar />
-
+      
       {/* 3. Section Hero principale */}
       <Hero />
       

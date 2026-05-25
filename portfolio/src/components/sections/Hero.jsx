@@ -56,7 +56,7 @@ export default function Hero() {
     <section className="min-h-screen bg-[#050816] text-white pt-28 flex items-center relative overflow-hidden">
       
       {/* Effet visuel de fond : Lueurs Cyber & Grille SOC */}
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#0c1129_1px,transparent_1px),linear-gradient(to_bottom,#0c1129_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-40" />
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#0c1129_1px,transparent_1px),linear-gradient(to_bottom,#0c1129_1px,transparent_1px)] bg-size:[4rem_4rem] mask[-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-40" />
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-[120px] pointer-events-none" />
 
@@ -74,7 +74,7 @@ export default function Hero() {
           {/* Titre Immense Scindé */}
           <h1 className="text-4xl md:text-6xl font-extrabold font-sans tracking-tight leading-[1.1] mb-6">
             System Administrator
-            <span className="block mt-2 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-500 font-black">
+            <span className="block mt-2 text-transparent bg-clip-text bg-linear-to-r from-cyan-400 via-blue-400 to-indigo-500 font-black">
               & Security Enthusiast
             </span>
           </h1>
