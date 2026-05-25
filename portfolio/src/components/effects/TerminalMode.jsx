@@ -80,7 +80,7 @@ export default function TerminalMode({ isOpen, onClose }) {
   };
 
   return (
-    <div className="fixed inset-0 bg-black text-green-400 font-mono text-sm z-[100] p-6 flex flex-col selection:bg-green-500/20 selection:text-green-300">
+    <div className="fixed inset-0 bg-black text-green-400 font-mono text-sm z-100 p-6 flex flex-col selection:bg-green-500/20 selection:text-green-300">
       {/* Top Bar de la console */}
       <div className="flex items-center justify-between border-b border-green-900/40 pb-3 mb-4 select-none">
         <div className="flex items-center gap-4">
