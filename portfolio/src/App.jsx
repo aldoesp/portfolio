@@ -4,6 +4,7 @@ import SplashCursor from './components/effects/SplashCursor'
 import Navbar from './components/layout/navbare'
 import Hero from './sections/Hero'
 
+
 function App() {
   return (
     <div className="min-h-screen bg-[#160f05] text-white relative overflow-x-hidden">
@@ -28,6 +29,9 @@ function App() {
       {/* 3. Section Hero principale */}
       <Hero />
       
+        {/* 4. Barre de réseaux sociaux */}
+      
+
       {/* Reste de tes sections ici, ex: <About />, <Skills />... */}
 
     </div>
